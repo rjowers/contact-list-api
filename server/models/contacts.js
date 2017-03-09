@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Contact = sequelize.define('Contact', {
+  var Contacts = sequelize.define('Contacts', {
     name: DataTypes.STRING,
     phonenumber: DataTypes.STRING,
     city: DataTypes.STRING,
@@ -14,5 +14,5 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   });
-  return Contact;
+  return Contacts;
 };
