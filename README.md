@@ -2,9 +2,9 @@
 
 In this assignment I demonstrated an ability to create Models and Migrations,  an understanding of Routes and Controllers, and an ability to document API endpoints.
 
+API DOCUMENTATION
 
-
-Creating a contacts
+URL:/contacts/:id
 
 1.CREATING A USER: In order to create a contact you must must make a POST request with the following parameters:
 
