@@ -38,6 +38,16 @@ updateStuff (req, res){
   })
   .then((contacts) => res.status(200).send(contacts))
   .catch((error) => res.status(400).send(error));
+},
+
+delete(req, res){
+  Contacts.destroy({
+         where: {
+                id:req.params.id
+              }
+          })
+  .then((contacts) => res.status(200).send(contacts))
+  .catch((error) => res.status(400).send(error));
 }
 
 
